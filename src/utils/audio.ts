@@ -1,7 +1,22 @@
 /**
  * Web Audio API based sound synthesizer for Doomsday HUD & TVA Terminal
  */
-class SoundEngine {
+export interface SoundEngineType {
+  play: (soundName: string) => void;
+  setEnabled: (val: boolean) => void;
+  isEnabled: () => boolean;
+  playClick: () => void;
+  playTvaBeep: () => void;
+  playIncursionAlarm: () => void;
+  playDoomSurge: () => void;
+  playSuccessChime: () => void;
+  playPageTurn: () => void;
+  playKrakoom: () => void;
+  playThwip: () => void;
+  playZap: () => void;
+}
+
+class SoundEngine implements SoundEngineType {
   private ctx: AudioContext | null = null;
   private enabled: boolean = true;
 
@@ -27,6 +42,55 @@ class SoundEngine {
     return this.enabled;
   }
 
+  // Universal dispatcher method required by SoundEngineType
+  public play(soundName: string) {
+    if (!this.enabled) return;
+    switch (soundName.toLowerCase()) {
+      case 'click':
+        this.playClick();
+        break;
+      case 'tva':
+      case 'beep':
+        this.playTvaBeep();
+        break;
+      case 'alarm':
+      case 'incursion':
+        this.playIncursionAlarm();
+        break;
+      case 'surge':
+      case 'doom':
+        this.playDoomSurge();
+        break;
+      case 'success':
+      case 'chime':
+        this.playSuccessChime();
+        break;
+      case 'page':
+      case 'turn':
+        this.playPageTurn();
+        break;
+      case 'krakoom':
+      case 'thunder':
+        this.playKrakoom();
+        break;
+      case 'thwip':
+      case 'web':
+        this.playThwip();
+        break;
+      case 'zap':
+      case 'electricity':
+        this.playZap();
+        break;
+      default:
+        try {
+          const audio = new Audio(`/sounds/${soundName}.mp3`);
+          audio.volume = 0.4;
+          audio.play().catch(() => {});
+        } catch (e) {}
+        break;
+    }
+  }
+
   // Quick tactile sci-fi HUD click
   public playClick() {
     if (!this.enabled) return;
@@ -48,9 +112,7 @@ class SoundEngine {
 
       osc.start();
       osc.stop(ctx.currentTime + 0.04);
-    } catch {
-      // Audio context might be restricted before interaction
-    }
+    } catch {}
   }
 
   // TVA Telemetry beep / verification
@@ -160,6 +222,7 @@ class SoundEngine {
       });
     } catch {}
   }
+
   // Comic Page Turn / Panel Slide Swish sound
   public playPageTurn() {
     if (!this.enabled) return;
@@ -168,7 +231,6 @@ class SoundEngine {
       if (!ctx) return;
       const now = ctx.currentTime;
       
-      // Filtered noise swoosh for paper page turn
       const bufferSize = ctx.sampleRate * 0.12;
       const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
       const data = buffer.getChannelData(0);
@@ -206,7 +268,6 @@ class SoundEngine {
       if (!ctx) return;
       const now = ctx.currentTime;
 
-      // Heavy low-frequency punch
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
       osc.type = 'sawtooth';
@@ -216,7 +277,6 @@ class SoundEngine {
       gain.gain.setValueAtTime(0.18, now);
       gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
 
-      // Distorted noise burst
       const bufferSize = ctx.sampleRate * 0.25;
       const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
       const data = buffer.getChannelData(0);
