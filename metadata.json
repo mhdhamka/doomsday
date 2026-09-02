@@ -1,0 +1,6 @@
+{
+  "name": "Avengers: Doomsday Preparation Platform",
+  "description": "Cinematic Multiverse Command HUD featuring Incursion Watch Clock, 15-Title Interactive Roadmap, Factions Dossier, and Gemini-powered TVA AI Chronologist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
