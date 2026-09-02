@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [20.x]
 
     steps:
       - name: Checkout Latverian Archives
@@ -22,10 +22,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
 
-      - name: Install Dependencies (Force Optional Bindings)
-        run: npm install --include=optional
+      - name: Clean Install (Rebuild Native Bindings)
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install --include=optional --legacy-peer-deps
 
       - name: Verify Multiverse Build
         run: npm run build
