@@ -24,8 +24,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
 
-      - name: Install Dependencies (TVA Sync)
-        run: npm install
+      - name: Install Dependencies (Force Optional Bindings)
+        run: npm install --include=optional
 
       - name: Verify Multiverse Build
         run: npm run build
