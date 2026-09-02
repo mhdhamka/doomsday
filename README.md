@@ -92,5 +92,4 @@ Open **`http://localhost:3000`** in your browser and bow before Doom!
 
 If this protocol saved your reality from total erasure, drop a star!
 
-```
 
