@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./public/doom-logo.png" width="90" alt="Doomsday Logo" />
+<img src="./src/assets/doom-logo.png" width="90" alt="Doomsday Logo" />
 
 # DOOMSDAY PROTOCOL // LATVERIAN ARCHIVES 
 *“What is a god to a monarch? What is a monarch to... DOOM?”*
@@ -94,4 +94,3 @@ If this protocol saved your reality from total erasure, drop a star!
 
 ```
 
-```
