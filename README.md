@@ -70,7 +70,7 @@ Clone the repository and boot up your local terminal bunker in seconds:
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/mhdhamka/doomsday.git](https://github.com/mhdhamka/doomsday.git)
+git clone https://github.com/mhdhamka/doomsday.git
 cd doomsday
 
 # 2. Install dependencies
