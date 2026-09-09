@@ -5,7 +5,7 @@
 # DOOMSDAY PROTOCOL // LATVERIAN ARCHIVES 
 *“What is a god to a monarch? What is a monarch to... DOOM?”*
 
-[Launch Live App](http://localhost:3000) · [Report Incursion](https://github.com/mhdhamka/doomsday/issues) · [Request Timeline Patch](https://github.com/mhdhamka/doomsday/issues)
+[Launch Live App](https://doomsdayprotocol.vercel.app/) · [Report Incursion](https://github.com/mhdhamka/doomsday/issues) · [Request Timeline Patch](https://github.com/mhdhamka/doomsday/issues)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Vite](https://img.shields.io/badge/Vite-React-646CFF?logo=vite&logoColor=white)
