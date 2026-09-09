@@ -20,9 +20,6 @@ import {
   Compass,
   MessageSquareQuote,
   Newspaper,
-  ScrollText,
-  Flame,
-  ShieldAlert
 } from 'lucide-react';
 
 interface ComicNarrationBoxProps {
@@ -159,7 +156,6 @@ export const ComicNarrationBox: React.FC<ComicNarrationBoxProps> = ({
         <div className="flex items-center space-x-2">
           {narrationMode === 'LATVERIAN_DAILY' && (
             <div className="flex items-center space-x-1.5 px-2.5 py-1 rounded bg-yellow-400 text-black font-comic tracking-wider text-xs border border-yellow-300 shadow-[2px_2px_0px_#000]">
-              <Newspaper className="w-3.5 h-3.5 text-black" />
               <span>THE LATVERIAN DAILY</span>
             </div>
           )}
@@ -199,7 +195,6 @@ export const ComicNarrationBox: React.FC<ComicNarrationBoxProps> = ({
               }`}
               title="View Latverian Daily Newspaper Dispatch"
             >
-              <Newspaper className="w-3 h-3" />
               <span className="hidden md:inline">Latverian Daily</span>
             </button>
 
@@ -212,7 +207,6 @@ export const ComicNarrationBox: React.FC<ComicNarrationBoxProps> = ({
               }`}
               title="View Doctor Doom's Imperial Manifesto"
             >
-              <ScrollText className="w-3 h-3 text-[#22c55e]" />
               <span className="hidden md:inline">Manifesto</span>
             </button>
 
@@ -225,7 +219,6 @@ export const ComicNarrationBox: React.FC<ComicNarrationBoxProps> = ({
               }`}
               title="View Comic Scribe / TVA Narration"
             >
-              <BookOpen className="w-3 h-3" />
               <span className="hidden md:inline">Comic Scribe</span>
             </button>
           </div>
@@ -300,7 +293,6 @@ export const ComicNarrationBox: React.FC<ComicNarrationBoxProps> = ({
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded bg-[#1a2e1a] text-[#22c55e] border border-[#22c55e] shadow-[1px_1px_0px_#000] flex items-center gap-1">
-                  <Flame className="w-3 h-3 text-[#22c55e]" />
                   {currentManifesto.clause}
                 </span>
                 <span className="text-xs text-[#e0e7e0]/60 font-mono">

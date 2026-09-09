@@ -1,19 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
-import { 
-  Clock, 
+import {  
   AlertTriangle, 
   Radio, 
   Compass, 
   ChevronRight, 
   ShieldAlert, 
-  Zap, 
   Flame, 
   Layers,
   Film,
-  Terminal,
   Cpu,
-  RefreshCw,
   Sparkles
 } from 'lucide-react';
 import { soundEngine } from '../utils/audio';
@@ -148,7 +144,6 @@ export const WatchClock: React.FC = () => {
             className={`text-[10px] px-2 py-0.5 rounded border transition-all flex items-center gap-1 font-bold uppercase ${diagnosticMode ? 'bg-[#22c55e] text-black border-[#22c55e]' : 'bg-[#1a2e1a] text-[#22c55e] border-[#22c55e]/40 hover:border-[#22c55e]'}`}
             title="Toggle Terminal Diagnostics"
           >
-            <Terminal className="w-3 h-3" />
             <span>{diagnosticMode ? 'HUD MODE' : 'DIAGNOSTICS'}</span>
           </button>
           <span className="text-[10px] text-white/60 font-comic uppercase tracking-widest">
@@ -183,7 +178,6 @@ export const WatchClock: React.FC = () => {
         <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
           <div className="flex items-center space-x-2">
             <span className="inline-flex items-center px-3 py-1 rounded text-xs font-bold tracking-wider uppercase bg-[#1a2e1a] border-2 border-[#22c55e] text-[#22c55e] shadow-[2px_2px_0px_#000]">
-              <Zap className="w-3.5 h-3.5 mr-1.5 text-[#22c55e]" />
               THE DOOMSDAY WATCH CLOCK
             </span>
             <span className="hidden sm:inline-block px-2.5 py-1 rounded text-xs text-white border-2 border-[#1a2e1a] bg-[#020402] font-bold">
