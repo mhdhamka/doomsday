@@ -25,11 +25,12 @@
 
 ---
 
-> **CLASSIFIED TVA MAINFRAME TRANSMISSION** > *Initializing Latverian Hegemony & Secret Wars survival matrix...*
-> ```text
-> [====================================] 100% BATTLEWORLD SYNCED
-> [DOOM-SENSE STATUS]: ABSOLUTE. TVA CHRONOLOGIST ONLINE.
-> ```
+<div align="center">
+
+<!-- Animated Real-time Typing Transmission Effect -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=500&color=22C55E&background=02040200&center=true&vCenter=true&width=700&lines=CLASSIFIED+TVA+MAINFRAME+TRANSMISSION...;Initializing+Latverian+Hegemony+%26+Secret+Wars+survival+matrix...;[====================================]+100%25+BATTLEWORLD+SYNCED;[DOOM-SENSE+STATUS]%3A+ABSOLUTE.+TVA+CHRONOLOGIST+ONLINE.)](https://git.io/typing-svg)
+
+</div>
 
 ---
 
