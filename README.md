@@ -1,16 +1,25 @@
 <div align="center">
 
-<img src="./src/assets/doom-logo.png" width="90" alt="Doomsday Logo" />
+<img src="./src/assets/doom-logo.png" width="100" alt="Doomsday Logo" />
 
 # DOOMSDAY PROTOCOL // LATVERIAN ARCHIVES 
-*“What is a god to a monarch? What is a monarch to... DOOM?”*
 
-[Launch Live App](https://doomsdayprotocol.vercel.app/) · [Report Incursion](https://github.com/mhdhamka/doomsday/issues) · [Request Timeline Patch](https://github.com/mhdhamka/doomsday/issues)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=15&duration=4000&pause=1000&color=22C55E&background=00000000&center=true&vCenter=true&width=750&lines=What+is+a+god+to+a+monarch%3F;What+is+a+monarch+to...+DOOM%3F;Initializing+Latverian+Hegemony...)](https://git.io/typing-svg)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Vite](https://img.shields.io/badge/Vite-React-646CFF?logo=vite&logoColor=white)
-![AI Chronologist](https://img.shields.io/badge/AI-Gemini_2.5-22c55e?logo=google&logoColor=black)
-![Threat Level](https://img.shields.io/badge/Incursion-Omega_Tier-red)
+<!-- Live Countdown Timer SVG to December 18, 2026 -->
+<img src="https://img.shields.io/badge/Countdown_to_Doomsday-December_18,_2026-22c55e?style=for-the-badge&logo=clock&logoColor=white" />
+
+<br>
+
+[![Launch Live App](https://img.shields.io/badge/LAUNCH_LIVE_APP-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://doomsdayprotocol.vercel.app/)
+[![Report Incursion](https://img.shields.io/badge/REPORT_INCURSION-ef4444?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mhdhamka/doomsday/issues)
+
+<br>
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+![Vite](https://img.shields.io/badge/Vite-React-646CFF?style=flat-square&logo=vite&logoColor=white)
+![AI Chronologist](https://img.shields.io/badge/AI-Gemini_2.5-22c55e?style=flat-square&logo=google&logoColor=black)
+![Threat Level](https://img.shields.io/badge/Incursion-Omega_Tier-red?style=flat-square)
 
 </div>
 
