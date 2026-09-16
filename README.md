@@ -2,7 +2,7 @@
 
 <img src="./src/assets/doom-logo.png" width="100" alt="Doomsday Logo" />
 
-# DOOMSDAY PROTOCOL // LATVERIAN ARCHIVES 
+# DOOMSDAY PROTOCOL 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=15&duration=4000&pause=1000&color=22C55E&background=00000000&center=true&vCenter=true&width=750&lines=What+is+a+god+to+a+monarch%3F;What+is+a+monarch+to...+DOOM%3F;Initializing+Latverian+Hegemony...)](https://git.io/typing-svg)
 
