@@ -7,7 +7,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=15&duration=4000&pause=1000&color=22C55E&background=00000000&center=true&vCenter=true&width=750&lines=What+is+a+god+to+a+monarch%3F;What+is+a+monarch+to...+DOOM%3F;Initializing+Latverian+Hegemony...)](https://git.io/typing-svg)
 
 <!-- Live Dynamic Countdown SVG (Target: Dec 18, 2026) -->
-[![Target Date](https://img.shields.io/badge/THEATER_TARGET-DECEMBER_18,_2026-22c55e?style=for-the-badge&logo=clock&logoColor=white)](https://doomsdayprotocol.vercel.app/)
+<img src="https://img.shields.io/badge/Countdown_to_Doomsday-December_18,_2026-22c55e?style=for-the-badge&logo=clock&logoColor=white" />
 
 <br>
 
