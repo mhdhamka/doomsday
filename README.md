@@ -67,10 +67,9 @@ _____________________________________________________
 
 | Category | Technology & Specification |
 | :--- | :--- |
-| **Frontend** | React + Vite (Lightning-fast temporal shifts) |
-| **Styling** | Tailwind CSS (Custom Cybernetic HUD Utilities & Phosphor Grids) |
-| **Icons** | Lucide React & Latverian Hegemony Assets |
-| **Brain** | Google Gemini 2.5 API (Powered by TVA Clearance) |
+| **Frontend** | React + Vite |
+| **Styling** | Tailwind CSS |
+| **Brain** | Google Gemini 2.5 API |
 
 ---
 
